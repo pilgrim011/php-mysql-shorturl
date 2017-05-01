@@ -1,8 +1,8 @@
 <?php
 try
 {
-$pdo = new PDO('mysql:host=localhost;dbname=urls',
-'example', 'example');
+$pdo = new PDO('mysql:host=eu-cdbr-west-01.cleardb.com;dbname=heroku_503a03e10b4d793',
+'b00961f654ac1d', 'ac61975a');
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 $pdo->exec('SET NAMES "utf8"');
 }
