@@ -1,0 +1,5 @@
+RewriteEngine off
+ErrorDocument 404 /shorturl/404.php
+#RewriteCond %{REQUEST_FILENAME} !-f 
+#RewriteRule ^shorturl/(.*)$ /shorturl/about.html
+

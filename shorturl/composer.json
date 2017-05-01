@@ -1,0 +1,11 @@
+{
+    "name": "root/phpshorturl",
+    "type": "project",
+    "authors": [
+        {
+            "name": "pilgrim011",
+            "email": "printerstampac@gmail.com"
+        }
+    ],
+    "require": {}
+}
