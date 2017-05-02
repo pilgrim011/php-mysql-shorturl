@@ -1,11 +1,5 @@
 <?php 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/form.html.php';
-if (!isset($_GET['submit'])){
-
-}
-
-
-
 if (isset($_GET['submit']) && !empty($_GET['usrurl']))
 {
 
