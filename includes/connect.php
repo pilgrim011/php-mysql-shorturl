@@ -9,7 +9,7 @@ $db = substr($url["path"], 1);
 try
 {
 $pdo = new PDO('mysql:host=$server;dbname=$db',
-'$username', '$password');
+$username, $password);
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 $pdo->exec('SET NAMES "utf8"');
 }
