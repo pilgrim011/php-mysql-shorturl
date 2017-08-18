@@ -43,5 +43,10 @@ exit();
 }
 
 ?>
+    <footer>
+          <div class="centar">
+                      <a href="http://www.tvojsajt.com/">Izrada sajta TvojSajt.com</a>
+          </div>
+  </footer><!-- /#footer -->
 </body>
 </html>
